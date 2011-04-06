@@ -1,10 +1,9 @@
 
-body{background-color: LemonChiffon;font-size: 150%;font-family: Helvetica;color: LightGray;}
-#taco{background-color: black; color: white;float: right;width: 6em;border-radius: .5em;}
+body, #taxo{margin: 2em; border: 2em;border-style: solid;border-radius: 1em;background-color: LemonChiffon;font-size: 150%;font-family: Helvetica;color: Gray;}
 #bigbutton{background-color: SandyBrown;color: SeaShell;font-size: 200%;font-family: Helvetica; color: Gray; border-style: double; width: 5em; height: 5em;border-radius: 3em;float: right;}
 
-#red{background-color: red;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;}
-#blue{background-color: blue;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;}
+#red{margin-left: 2em;margin-top: .5em;background-color: red;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;indent: 1em;}
+#blue{margin-left: 2em;margin-bottom: .5em;background-color: blue;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;}
 #redstring, #bluestring{background-color: LightGray; color: white;font-size: 150%;font-family: Helvetica;width:6em;}
 #redbutton, #bluebutton{background-color: white; font-color: gray;height: 4.5em;width: 4.5em;border-style: solid;border-radius: 2.5em;}
 
