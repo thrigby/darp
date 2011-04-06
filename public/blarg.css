@@ -1,9 +1,9 @@
 
 body, #taxo{margin: 2em; border: 2em;border-style: solid;border-radius: 1em;background-color: LemonChiffon;font-size: 150%;font-family: Helvetica;color: Gray;}
-#bigbutton{background-color: SandyBrown;color: SeaShell;font-size: 200%;font-family: Helvetica; color: Gray; border-style: double; width: 5em; height: 5em;border-radius: 3em;float: right;}
+#bigbutton{margin-top: .1em;margin-right: .25em;background-color: SandyBrown;color: SeaShell;font-size: 200%;font-family: Helvetica; color: Gray; border-style: double; width: 5em; height: 5em;border-radius: 3em;float: right;}
 
-#red{margin-left: 2em;margin-top: .5em;background-color: red;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;indent: 1em;}
-#blue{margin-left: 2em;margin-bottom: .5em;background-color: blue;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;}
-#redstring, #bluestring{background-color: LightGray; color: white;font-size: 150%;font-family: Helvetica;width:6em;}
+#red{margin-left: 2em;margin-top: .5em;margin-right: 2em;background-color: red;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;indent: 1em;}
+#blue{margin-left: 2em;margin-bottom: .5em;margin-right: 2em;background-color: blue;color: LightGray;width: 10em; height: 8em; border-style: solid; border-radius: .5em;}
+#redstring, #bluestring{margin-left: .5em;background-color: gray; text-indent: .5em;color: white;font-size: 150%;font-family: Helvetica;width:5em;}
 #redbutton, #bluebutton{background-color: white; font-color: gray;height: 4.5em;width: 4.5em;border-style: solid;border-radius: 2.5em;}
 
