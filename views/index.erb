@@ -1,5 +1,5 @@
 <form id = "tally" method = "get" action = "/tally">
-<input id = "bigbutton" type = "submit" name = "bigbutton"/>
+<input id = "bigbutton" type = "submit" name = "bigbutton" value = "clicky!"/>
 </form>
 <form id = "red" method = "get" action = "/redarray" >
 <p>red team</p>
@@ -8,7 +8,9 @@
 <input id = "redbutton" type = "submit" name = "button" />
 </form>
 <BR></BR>
-<%= erb :array %>
+<form id = "tally" method = "get" action = "/array">
+<input id = "bigbutton" type = "submit" name = "button" value = "array">
+</form>
 <BR></BR>
 <form id = "blue" method = "get" action = "/bluearray" >
 <p>blue team</p>

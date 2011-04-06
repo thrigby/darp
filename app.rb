@@ -7,16 +7,6 @@ Redpowers = []
 Bluenames = []
 Bluepowers = []
 
-class Array
-  def inject(n)
-     each { |value| n = yield(n, value) }
-     n
-  end
-  def sum
-    inject(0) { |n, value| n + value }
-  end
-end
-
 get '/' do
   erb :index
 end
@@ -33,17 +23,20 @@ get '/bluearray' do
   erb :index
 end
 
+get '/array' do
+  erb :array
+end
+
 get '/tally' do
-  @x = Redpowers.sum
-  @y = Bluepowers.sum
-  case 
-    when @x > @y
-    @winner = "RED WINS"
+  @x = Redpowers.reduce(:+)
+  @y = Bluepowers.reduce(:+)
+  case
+    when @x < @y
+      @winner = "BLUE WINS"
     when @y < @x
-    @winner = "BLUE WINS"
+      @winner = "RED WINS"
     else
-    @winner = "TIE GAME"
+      @winner = "TIE GAME"
     end
-      
   erb :tally
 end
